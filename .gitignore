@@ -1,0 +1,36 @@
+# User-owned game files and runtime data stay local.
+roms/*
+!roms/README.txt
+saves/*
+states/*
+logs/*
+config/local.json
+config/local-roms.sha256
+*.gba
+*.gbc
+*.sav
+*.state
+Game.exe
+__pycache__/
+*.py[cod]
+*.swp
+.DS_Store
+
+# Credentials, local executable runtimes, desktop entries, and backups
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.gb
+*.srm
+*.ss*
+games/
+emulators/
+runtime/
+wine-prefix/
+*.local.desktop
+*.zip
+*.tar
+*.tar.gz
+*.7z

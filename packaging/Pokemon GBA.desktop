@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=Pokémon GBA
+Comment=Choose and launch a Pokémon Game Boy game
+Exec=/bin/bash /path/to/PokeGBA/launcher/pokemon-gba-menu.sh
+TryExec=/bin/bash
+Icon=/path/to/PokeGBA/launcher/pokemon-gba-icon.png
+Path=/path/to/PokeGBA/launcher
+Terminal=false
+Type=Application
+Categories=Game;Emulator;
+StartupNotify=false
+DBusActivatable=false
